@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh; 
+  margin: 0;  
+  background-color: hsl(30, 54%, 90%)
+}
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 16px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: serif;
+    font-style: bold;
+    padding-left: 20px;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    padding-left: 10px;
+}
+
+style {
+    background-color: black
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
+.m {
+   display: flex;
+   justify-content: flex-end;
+   width: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  /* Убираем нижнюю границу у последней строки */
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  .Ingredients,
+  .Instructions {
+    border-bottom: 1px solid #ddd; /* Горизонтальная линия */
+    padding-bottom: 10px; /* Отступ перед линией */
+    margin-bottom: 20px; /* Отступ после линии */
+  }
+  
+  ol li {
+    padding-left: 20px; /* Добавляет пространство между номером и текстом */
+  }
+
+  ul li {
+    padding-left: 20px; /* Добавляет пространство между номером и текстом */
+  }
+  
+  .Simple_Recipe {
+    padding-left: 10px;
+  }
