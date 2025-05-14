@@ -1,4 +1,5 @@
-body {
+@media (max-width: 375px) {
+     body {
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -7,14 +8,11 @@ body {
   background-color: hsl(30, 54%, 90%)
 }
 
-
 .container {
     background-color: white;
-    padding: 20px;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -22,6 +20,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    
 }
 
 .Preparation {
@@ -62,8 +61,8 @@ style {
 
 .m {
    display: flex;
-   justify-content: flex-end;
-   width: 300px;
+   justify-content: flex-start;
+   
 }
 
 table {
@@ -84,21 +83,35 @@ table {
     border-bottom: none;
   }
   
+
+  
   .Ingredients,
   .Instructions {
     border-bottom: 1px solid #ddd; /* Горизонтальная линия */
     padding-bottom: 10px; /* Отступ перед линией */
     margin-bottom: 20px; /* Отступ после линии */
+    padding-right: 20px;
   }
   
   ol li {
-    padding-left: 20px; /* Добавляет пространство между номером и текстом */
+    padding-left: 20px; /* пространство между номером и текстом */
   }
 
   ul li {
-    padding-left: 20px; /* Добавляет пространство между номером и текстом */
+    padding-left: 20px; /*  пространство между номером и текстом */
   }
   
   .Simple_Recipe {
-    padding-left: 10px;
+    padding-left: 12px;
+    padding-right: 20px;
   }
+
+  #Nutrition {
+    padding-left: 12px;
+  }
+
+  .Nutrition {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
